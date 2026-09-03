@@ -95,4 +95,4 @@ Set `NEOPREGO_AUDIO2026_DATASET_ROOT` before running Compose to mount the intend
 
 ## Citation and license
 
-Citation metadata is in `CITATION.cff`. The repository is licensed under the Apache License 2.0; see `LICENSE` for the complete terms. Source code and updates are available on [GitHub](https://github.com/lapidarioz/neoprego_audio2026).
+Citation metadata is in `CITATION.cff`. The repository is licensed under the Apache License 2.0; see `LICENSE` for the complete terms. Source code and updates are available on [GitHub](https://github.com/lapidarioz/Goodall).
