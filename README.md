@@ -1,4 +1,4 @@
-# NeoPrego Audio 2026
+# Temporal Aggregation Support for Sparse Behavioral Acoustic Event Detection
 
 [GitHub repository](https://github.com/lapidarioz/neoprego_audio2026)
 
