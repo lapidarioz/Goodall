@@ -1,0 +1,7 @@
+services:
+  neoprego_audio2026:
+    build: .
+    image: neoprego-audio2026:latest
+    volumes:
+      - ${NEOPREGO_AUDIO2026_DATASET_ROOT:-./dataset}:/data:ro
+      - ./outputs:/app/outputs

@@ -1,19 +1,40 @@
 [project]
-name = "goodall"
-version = "0.1.1"
-description = "Automated behavioral analysis of primates via audio signal processing and machine learning."
+name = "neoprego-audio2026"
+version = "1.0.0"
+description = "Reproducible temporal-support experiments for sparse behavioral acoustic event detection."
 readme = "README.md"
-requires-python = ">=3.12"
+license = { file = "LICENSE" }
+requires-python = ">=3.11,<3.14"
 dependencies = [
-    "dtaidistance>=2.4.0",
-    "keras>=3.13.2",
-    "librosa>=0.11.0",
-    "matplotlib>=3.10.8",
-    "numpy>=2.4.2",
-    "pandas>=3.0.1",
-    "pywavelets>=1.9.0",
-    "scikit-learn>=1.8.0",
-    "tensorflow>=2.21.0",
-    "tqdm>=4.67.3",
-    "xgboost>=3.2.0",
+    "librosa>=0.11.0,<0.12",
+    "idna>=3.15,<4",
+    "msgpack>=1.2.1,<2",
+    "numpy>=2.2,<3",
+    "pandas>=2.2,<4",
+    "requests>=2.33,<3",
+    "scikit-learn>=1.6,<2",
+    "scipy>=1.15,<2",
+    "urllib3>=2.7,<3",
 ]
+
+[project.urls]
+Repository = "https://github.com/lapidarioz/neoprego_audio2026"
+
+[project.optional-dependencies]
+panns = [
+    "torch>=2.2",
+    "torchlibrosa>=0.1.0",
+]
+
+[project.scripts]
+neoprego-audio2026 = "neoprego_audio2026.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["neoprego_audio2026", "models"]
+
+[tool.ruff.lint.per-file-ignores]
+"models/PANNs.py" = ["N999"]

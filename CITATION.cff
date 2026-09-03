@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article."
+title: "NeoPrego Audio 2026: Temporal aggregation support for sparse behavioral acoustic event detection"
+type: software
+version: 1.0.0
+date-released: 2026-09-03
+repository-code: "https://github.com/lapidarioz/Goodall"
+url: "https://github.com/lapidarioz/Goodall"
+authors:
+  - family-names: Testa
+    given-names: Rafael Luiz
+    orcid: "https://orcid.org/0000-0002-7209-1111"
+  - family-names: Schneider
+    given-names: Pedro
+    orcid: "https://orcid.org/0009-0008-3145-8328"
+  - family-names: Valença
+    given-names: Tatiane
+    orcid: "https://orcid.org/0000-0003-3618-4633"
+  - family-names: Falótico
+    given-names: Tiago
+    orcid: "https://orcid.org/0000-0002-0638-1989"
+license: Apache-2.0
