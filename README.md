@@ -1,8 +1,6 @@
 # Temporal Aggregation Support for Sparse Behavioral Acoustic Event Detection
 
-[GitHub repository](https://github.com/lapidarioz/neoprego_audio2026)
-
-This branch contains the code needed to reproduce the experiments in **“Temporal Aggregation Support for Sparse Behavioral Acoustic Event Detection.”** It compares three ways of selecting frames from the same five-second audio candidates:
+This repository contains the code needed to reproduce the experiments in **“Temporal Aggregation Support for Sparse Behavioral Acoustic Event Detection.”** It compares three ways of selecting frames from the same five-second audio candidates:
 
 - `GLOBAL100`: all frames;
 - `RANDOM20`: 20% of frames sampled with 20 deterministic seeds; and
